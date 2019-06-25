@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/LiXiaoGuo/banner.svg)](https://jitpack.io/#LiXiaoGuo/banner)
 # Android图片轮播控件
 [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
@@ -123,7 +124,7 @@
 Gradle 
 ```groovy
 dependencies{
-    compile 'com.youth.banner:banner:1.4.10'  //最新版本
+    implementation 'com.github.LiXiaoGuo:banner:1.5.0'
 }
 ```
 或者引用本地lib
