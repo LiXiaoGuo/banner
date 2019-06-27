@@ -606,7 +606,10 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
                 bannerTitle.setText(titles.get(position - 1));
                 break;
         }
+    }
 
+    public View getCurrentItem(){
+        return viewPager.getChildAt(viewPager.getCurrentItem());
     }
 
     @Deprecated
